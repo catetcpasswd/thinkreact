@@ -9,6 +9,12 @@ const PRODUCTS = [
   },
   {
     category: "Sporting Goods",
+    price: "$99.99",
+    stocked: false,
+    name: "Tennis"
+  },
+  {
+    category: "Sporting Goods",
     price: "$9.99",
     stocked: true,
     name: "Baseball"
@@ -171,7 +177,7 @@ const FilterableProductTable = props => {
 const App = () => {
   return (
     <div>
-      <h1>Think Components</h1>
+      <h1>Build Components!</h1>
       <FilterableProductTable products={PRODUCTS} />
     </div>
   );

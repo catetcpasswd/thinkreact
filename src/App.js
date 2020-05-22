@@ -177,7 +177,7 @@ const FilterableProductTable = props => {
 const App = () => {
   return (
     <div>
-      <h1>Build Components!</h1>
+      <h1>Compose Components!</h1>
       <FilterableProductTable products={PRODUCTS} />
     </div>
   );
